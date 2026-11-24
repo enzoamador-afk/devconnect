@@ -10,13 +10,28 @@ header{
     background-color: #102A43;
     height: 80px;
     display: flex;
-    gap: 3rem;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 #DevConnect{
     color: white;
-    font-size: 1,5rem;
+    font-size: 2rem;
     font-weight: bold;
+    margin: 8rem;
 }
 
+#divLinks{
+    margin: 8rem;
+}
+
+.links{
+    padding: 1rem;
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+}
+
+:hover.links{
+    color: #F5A623;
+
+}
