@@ -10,8 +10,8 @@ header{
     background-color: #102A43;
     height: 80px;
     display: flex;
-    flex-direction: column;
     gap: 3rem;
+    justify-content: center;
 }
 
 #DevConnect{
@@ -19,3 +19,4 @@ header{
     font-size: 1,5rem;
     font-weight: bold;
 }
+
